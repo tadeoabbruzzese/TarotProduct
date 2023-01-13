@@ -14,6 +14,10 @@ body {
     font-family: sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .head {
     display: flex;
     align-items: center;
@@ -30,8 +34,10 @@ body {
     margin-right: 10px;
 }
 
-.logo {
+.logo img{
     margin-left: 30px;
+    width: 50px;
+    
 }
 
 .logo a {
@@ -67,12 +73,21 @@ body {
     background-size: cover;
 }
 
+.p-class {
+    width: 50%;
+}
+
+.p-class1{
+    width: 50%;
+    margin: auto;
+}
+
 .title {
     margin-bottom: 40px;
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #fff;
+    color: bisque;
 }
 
 p {
@@ -112,6 +127,8 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: url(https://img.freepik.com/vector-gratis/fondo-cartas-tarot-dibujadas-mano_79603-2055.jpg?w=2000);
+    background-attachment: fixed;
 }
 
 .sau {
@@ -166,18 +183,14 @@ p {
 }
 
 .price {
-    background: url(img/costos.jpg) no-repeat center;
+    background: url(https://www.clarin.com/img/2022/01/17/kI46Mc_m8_1200x630__1.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
 }
 
 
-.contact {
-    padding-top: 20px;
-    background: #171717;
-    padding-bottom: 0;
-}
+
 
 
 @media (max-width: 768px) {
@@ -194,4 +207,78 @@ p {
     .navbar {
         display: none;
     }
+}
+
+.title h2{
+    color:#101010
+}
+
+/* PIE DE PAGINA */
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141D;
+
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+
 }

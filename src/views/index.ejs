@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="/css/index.css">
-    <title>Pagina web basica</title>
+    <title>Tarot y Limpieza Espiritual</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -14,22 +15,22 @@
     <div class="head">
 
         <div class="logo">
-            <a href="#">Logo</a>
+            <img src="/images/Tarot-Card-Transparent-PNG.png" alt="">
         </div>
 
         <nav class="navbar">
-            <a href="#">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Conacto</a>
-            <a href="#">Productos</a>
-            <a href="#">Precio</a>
+            <a href="/">Inicio</a>
+            <a href="#anchor-nosotros">Nosotros</a>
+            <a href="#anchor-footer">Contacto</a>
+            <a href="#anchor-products">Productos</a>
+            <a href="#anchor-price">Precio</a>
         </nav>
 
     </div>
 
     <header class="content header">
         <h2 class="title">Inicio</h2>
-        <p>
+        <p class="p-class">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
              Ipsam necessitatibus odio quisquam reprehenderit quas, 
              obcaecati, harum hic molestiae sequi ipsa nihil id tempore explicabo 
@@ -40,12 +41,13 @@
             <a href="#" class="btn">Saber mas</a>
             <a href="#" class="btn">Saber mas</a>
         </div>
+        <div id="anchor-products"></div>
     </header>
 
     <section class="content sau">
-
+        
         <h2 class="title">Productos</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+        <p class="p-class" >Lorem ipsum, dolor sit amet consectetur adipisicing 
             elit. Veritatis excepturi dolore, harum asperiores 
             cupiditate officiis quia odit reiciendis quidem iure 
             architecto laudantium 
@@ -70,13 +72,13 @@
             </div>
 
         </div>
-
+        <div id="anchor-nosotros"></div>
     </section>
 
     <section class="content about">
 
-        <h2 class="title">Nosotros</h2>
-        <p>Lorem ipsum dolor sit amet consectetur 
+        <h2 class="title" >Nosotros</h2>
+        <p class="p-class">Lorem ipsum dolor sit amet consectetur 
             adipisicing elit. Ut soluta similique 
             quia reprehenderit eligendi aliquam. Sit 
             odio impedit quibusdam. Velit corporis, 
@@ -84,14 +86,14 @@
         </p>
 
         <a href="#" class="btn">Saber mas</a>
-
+        <div id="anchor-price"></div>
     </section>
 
     <section class="content price">
 
         <article class="contain">
             <h2 class="title">Precio</h2>
-            <p>Lorem ipsum dolor sit amet consectetur 
+            <p class="p-class1">Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Ut soluta similique 
                 quia reprehenderit eligendi aliquam. Sit 
                 odio impedit quibusdam. Velit corporis, 
@@ -104,13 +106,36 @@
 
     </section>
 
-    <section class="content contact">
-        <h2 class="title">Contacto</h2>
-        <p>48481548</p>
-        <figure class="map">
-            <img src="img/mapa.png" height="220px" width="100%" alt="mapa">
-        </figure>
-    </section>
+    <footer class="pie-pagina" id="anchor-footer">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                  <a href="#">
+                      <img src="/images/Tarot-Card-Transparent-PNG.png" alt="Logo">
+                  </a>
+                </figure>  
+              </div>
+              <div class="box">
+                  <h2>SOBRE NOSOTROS</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In enim totam quidem dolores tempore, reiciendis nesciunt deleniti eaque quia officia quo aut officiis illum. Amet necessitatibus molestiae explicabo illum dolor?</p>
+
+              </div>
+              <div class="box">
+                  <h2>SIGUENOS</h2>
+                  <div class="red-social">
+                      <a href="#" class='fa fa-facebook'></a>
+                      <a href="#" class="fa fa-instagram"></a>
+                      <a href="#" class="fa fa-whatsapp"></a>
+                  </div>
+              </div>
+        </div>
+        
+
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Tadeo Abbruzzese</b> - Todos los derechos reservados</small>
+        </div>
+
+    </footer>
     
 </body>
 </html>
